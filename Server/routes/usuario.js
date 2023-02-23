@@ -47,7 +47,7 @@ router.get('/obtenerusuarios', (req,res) =>{
     })
 })
 
-//obtener borrar
+//borrar
 router.delete('/borrarusuario/:id', (req,res) =>{
     const id = req.params['id'];
     console.log(id);

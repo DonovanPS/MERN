@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 
 mongoose.set("strictQuery", true);
 
-mongoose.connect('mongodb://0.tcp.sa.ngrok.io:14921/usuarios_mern');
-
+//mongoose.connect('mongodb://0.tcp.sa.ngrok.io:14921/usuarios_mern');
+mongoose.connect('mongodb://127.0.0.1:27017/usuarios_mern');
 
 const objetodb = mongoose.connection
 
